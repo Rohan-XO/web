@@ -1,0 +1,29 @@
+  /* PentagonButton.css */
+.pentagon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Adjust the size as needed */
+  height: 400px;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: #007bff; /* Default background color */
+  border: none;
+  color: #fff; /* Adjust the text color */
+  cursor: pointer;
+  outline: none;
+  transform: rotate(90deg);
+  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0% 100%, 0% 38%);
+  transition: background-color 0.3s; /* Smooth transition for color changes */
+  }
+  
+  .pentagon-button.hovered {
+    background-color: #F81485; /* Change to the hover background color */
+  }
+  
+  .pentagon-button.active {
+    background-color: #FFB902; /* Change to the active (clicked) background color */
+  }
+
+  
+  
