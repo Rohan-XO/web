@@ -1,0 +1,16 @@
+.image-container {
+    display: grid;
+    height: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6%; /* Increase the gap for more spacing between images */
+    padding: 5%; /* Add padding around the container */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the images horizontally in their columns */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for a nice look */
+    border-radius: 5px; /* Add rounded corners for a nice effect */
+  }
+  

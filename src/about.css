@@ -1,4 +1,10 @@
 .img_x{
+    display: flex;
+    align-items: center;
     width:80%;
     margin-left: 10%;
+}
+.about-body{
+    background-color: white;
+    background-image: none;
 }

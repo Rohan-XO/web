@@ -2,19 +2,19 @@
 
 .testimonials-container
 {
-    margin-top: 1.5em;
+    margin-top: 1.5%;
     display: grid;
     grid-template-columns: repeat(2,200px);
     column-gap: 18em;
     row-gap: 2em;
     margin-left: 18%;
     align-items: center;
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5%;
 }
 
 .heading
 {
-    margin-top: 1.5em;
+    margin-top: 1.5%;
     margin-left: 18.3%;
     display: grid;
     grid-template-columns: repeat(1,400px);

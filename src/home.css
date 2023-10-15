@@ -1,20 +1,33 @@
 .ticket
 {
-    width:50%;
-    margin-left: 9%;
+    display: flex;
+    align-items: flex-start;
+    width:55%;  
+    margin-left: 5.5%;
+    margin-top: -43%;
+}
+
+.button{
+    margin-left: 67%;
+    margin-top: -15%;
 }
 
 .text
 {
-    margin-left: 10%;
-    padding: 2%;
+    margin-left: 7%;
+    text-align: left;
+    padding: 2% 0% 0% 0%;
 }
 .homepagetext{
+    text-align: left;
     font-size: x-large;
-    padding: 0% 2%;
-    margin-left: 10%;
+    padding: 0% 0% 0% 0%;
+    margin-left: 7%;
 }
 .main
 {
+    display: flex;
+    align-items: flex-start;
     width: 85%;
+    margin-top: -12%;
 }

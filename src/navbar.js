@@ -1,8 +1,9 @@
 import React from 'react';
-import './navbar.css'; // Import your CSS file for styling
+import './navbar.css';
 import Logo from './logo.png';
 import Gmail from './gmail.png';
 import Linkedin from './linkedin.png';
+
 
 const Navbar = () => {
   return (
