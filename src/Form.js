@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import emailjs from '@emailjs/browser';
 import './Form.css';
 import Artwork from './Artwork.png'
 
@@ -8,22 +9,27 @@ const Form = () => {
     const [name, setName] = useState();
     const [email, setEmail] = useState();
     const [message, setMessage] = useState();
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => emailjs.init("PUBLIC-KEY"), []);
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        const formData = {
-            name: name,
-            email: email,
-            message: message,
-        }
+        const serviceId = "SERVICE-ID";
+        const templateId = "TEMPLATE-ID";
 
-        try{
-            const response = await axios.post('http://localhost:5000/mail', formData);
-            if(response.status === 200){
-                console.log(response.data.message);
-            }
-        } catch (err){
-            console.log('Sorry try again!',err);
+        try {
+            setLoading(true);
+            await emailjs.send(serviceId, templateId, {
+                name: name,
+                email: email,
+                message: message
+            });
+            alert("Email Ssuccessfully Sent");
+        } catch (error) {
+            console.log(error);
+        } finally {
+            setLoading(false);
         }
 
     }
