@@ -1,4 +1,19 @@
 .project{
     text-decoration: none;
     color: black;
+    text-align: center;
+}
+@media (max-width:500px) {
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        font-size: larger;
+    }
+    .project-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

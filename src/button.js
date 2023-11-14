@@ -19,7 +19,7 @@ import Mouse from './mouse.png';
 import { Link } from 'react-router-dom';
 import './button.css';
 
-const Button = () => {
+const Button = ({onScroll}) => {
   const [hovered, setHovered] = useState(null);
   const [clicked, setClicked] = useState(null);
 
@@ -70,7 +70,7 @@ const Button = () => {
           onClick={() => handleClick('work')}
         />
         </Link>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1u-bOv_KpF4ZG_1kNWA40cQ0CdBBcXLBQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           <img
             className={`cv_normal ${hovered === 'cv' ? 'hover' : ''} ${clicked === 'cv' ? 'click' : ''}`}
             src={clicked === 'cv' ? ClickCv : (hovered === 'cv' ? HoverCv : Cv)}
@@ -80,6 +80,7 @@ const Button = () => {
             onClick={() => handleClick('cv')}
           />
         </a>
+        {/* <CVModal cvLink = 'https://drive.google.com/file/d/1u-bOv_KpF4ZG_1kNWA40cQ0CdBBcXLBQ/view?usp=drive_link'/> */}
 
         <Link to="/references">
           <img
@@ -97,7 +98,8 @@ const Button = () => {
           alt=""
           onMouseEnter={() => handleHover('contact')}
           onMouseLeave={() => handleHover(null)}
-          onClick={() => handleClick('contact')}
+          onClick={() => onScroll()
+          }
         />
         <img className='mouse' src={Mouse} alt="" />
       </div>

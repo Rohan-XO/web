@@ -22,10 +22,10 @@
 }
 
 .mouse {
-  width: 54.5%;
+  width: 54.3%;
   position: absolute;
-  top: 19%; /* Adjust the top value */
-  left: 19.8%; /* Adjust the left value */
+  top: 18.9%; /* Adjust the top value */
+  left: 22.4%; /* Adjust the left value */
   pointer-events: none; /* Make the mouse image non-interactive */
 }
 
@@ -43,26 +43,29 @@
 /* Adjust positioning values for each overlay element */
 .about_normal {
   top: 10%; /* Adjust the top value to position the element vertically */
-  left: 22%; /* Adjust the left value to position the element horizontally */
+  left: 24%; /* Adjust the left value to position the element horizontally */
 }
 
 .work_normal {
   top: 20%; /* Adjust the top value */
-  left: 24%; /* Adjust the left value */
-}
-
-.contact_normal {
-  top: 53%; /* Adjust the top value */
-  left: 22%; /* Adjust the left value */
-}
-
-.references_normal {
-  top: 43%; /* Adjust the top value */
   left: 26%; /* Adjust the left value */
 }
 
+.contact_normal {
+  top: 52%; /* Adjust the top value */
+  left: 25%; /* Adjust the left value */
+}
+
+.references_normal {
+  top: 42.4%; /* Adjust the top value */
+  left: 28%; /* Adjust the left value */
+}
+
 .cv_normal {
-  top: 33%; /* Adjust the top value */
-  left: 22%; /* Adjust the left value */
+  top: 32.4%; /* Adjust the top value */
+  left: 23%; /* Adjust the left value */
+}
+.contact_normal{
+  cursor: pointer;
 }
 

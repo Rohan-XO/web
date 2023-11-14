@@ -1,9 +1,24 @@
+.text
+{
+    margin-left: 7%;
+    text-align: left;
+    padding: 2% 0% 0% 0%;
+}
+
+.homepagetext{
+    text-align: left;
+    font-size: x-large;
+    padding: 0% 0% 0% 0%;
+    margin-left: 7%;
+}
+
 .ticket
 {
     display: flex;
     align-items: flex-start;
-    width:55%;  
-    margin-left: 5.5%;
+    width: 70%;  
+    margin-left: 2%;
+    /* margin-right: 10px; */
     margin-top: -43%;
 }
 
@@ -12,18 +27,6 @@
     margin-top: -15%;
 }
 
-.text
-{
-    margin-left: 7%;
-    text-align: left;
-    padding: 2% 0% 0% 0%;
-}
-.homepagetext{
-    text-align: left;
-    font-size: x-large;
-    padding: 0% 0% 0% 0%;
-    margin-left: 7%;
-}
 .main
 {
     display: flex;
@@ -31,3 +34,43 @@
     width: 85%;
     margin-top: -12%;
 }
+.Form{
+    margin-top: 2rem;
+}
+/* Styles for small screens (e.g., phones) */
+@media (max-width: 500px) {
+    .homepagetext{
+        text-align: left;
+        font-size: x-large;
+        padding: 0% 0% 0% 0%;
+        margin-left: 7%;
+    }
+    .entirecontent{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .ticket{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 120%;
+        /* margin-top: 100px; */
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        width: 100vw;
+    }
+    /* Add your responsive styles here */
+  }
+  

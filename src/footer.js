@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      © 2023 All rights reserved by Shambhavi Palini
+      © 2023 All rights reserved by Shambhavi Palni
     </footer>
   );
 }
