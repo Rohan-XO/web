@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="social-icons">
-        <a href="mailto:shambhavi.palni@gmail.com"><img src={Gmail} alt="Gmail" /></a>
+        <a href="mailto:shambhavipalnicontact@gmail.com"><img src={Gmail} alt="Gmail" /></a>
         <a href="https://www.linkedin.com/in/shambhavi-palni-046aa1201/"><img src={Linkedin} alt="LinkedIn" /></a>
       </div>
     </nav>
