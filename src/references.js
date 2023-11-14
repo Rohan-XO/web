@@ -61,7 +61,7 @@ const TestimonialsPage = () => {
       <Navbar className='navbar'/>
       <div className="testimonials-page">
         <div className="heading">
-          <h1>RECOMMENDATIONS/&nbsp;REFERENCES</h1>
+          <h1>Recommendations/&nbsp;References</h1>
         </div>
         <div className="testimonials-container">
           {testimonialsData.map((testimonial) => (
