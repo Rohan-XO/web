@@ -18,7 +18,7 @@ const home = () => {
       <Navbar/>
      <div className='entirecontent'>
       <div className="text">
-        <h1>Shambhavi Palni <br/> UX Designer</h1>
+        <p>Shambhavi Palni</p> <br/><p className='line'>UX Designer</p>
       </div>  
         <br/>
         <p className='homepagetext'>Hey there! I am a creative Graphic and UI/UX

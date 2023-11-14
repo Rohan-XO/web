@@ -1,5 +1,5 @@
 import React from 'react';
-import './work1.css';
+import './work2.css';
 import Navbar from './navbar.work';
 import work4 from './work4.pdf';
 import work5 from './work5.pdf';
@@ -51,7 +51,7 @@ const Work2 = () => {
     <div>
         <Navbar/>
     <h1 style={{ paddingLeft: '5%', paddingTop: '4.5%', marginBottom: '-1%', textAlign: 'left' }}>Graphic Design and Illustration</h1>
-      <div className="image-container">
+      <div className="image-container1">
       {workData.map((testimonial) => (
         <Link to={`projectWindow2/${testimonial.id}`}>
             <div
