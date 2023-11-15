@@ -45,7 +45,7 @@ const Work3 = () => {
     <h1 style={{ paddingLeft: '5%', paddingTop: '4.5%', marginBottom: '-1%', textAlign: 'left' }}>Product Design</h1>
       <div className="image-container">
       {workData.map((testimonial) => (
-        <Link to={`projectWindow3/${testimonial.id}`}>
+        <Link style={{textDecoration:'none'}}to={`projectWindow3/${testimonial.id}`}>
             <div
               key={testimonial.id}
               className="work-card"
@@ -54,7 +54,7 @@ const Work3 = () => {
             >
               {/* <div className="cont"> */}
                 <img src={testimonial.img} />
-                <h3 style={{ color: '#8791B2', marginLeft:'2%', fontSize:'18px' }}>{testimonial.name}</h3>
+                <h3 style={{ color: 'black', marginLeft:'2%', fontSize:'18px' }}>{testimonial.name}</h3>
                 {/* <h3 style={{ color: '#8791B2' }}>{testimonial.designation}</h3> */}
                 {/* <h3 style={{ color: '#8791B2' }}>{testimonial.companyname}</h3> */}
                 {/* <iframe className='contented' title="PDF Document" src = {testimonial.link} alt = "could not" height='100%' width = '100%s'></iframe> */}

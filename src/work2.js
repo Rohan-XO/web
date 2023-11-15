@@ -10,7 +10,6 @@ import w5 from './w5.png';
 import w6 from './w6.png';
 import w7 from './w7.png';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 const workData = [
   {
@@ -39,34 +38,26 @@ const workData = [
   }
 ]
 const Work2 = () => {
-  // console.log(workData);
-  const history = useHistory();
-
-  const handleProjectClick = (id) => {
-    return (
-      <Link to = {`./projectWindow2/${id}`}></Link>
-    )
-  };
   return (
     <div>
         <Navbar/>
     <h1 style={{ paddingLeft: '5%', paddingTop: '4.5%', marginBottom: '-1%', textAlign: 'left' }}>Graphic Design and Illustration</h1>
       <div className="image-container1">
       {workData.map((testimonial) => (
-        <Link to={`projectWindow2/${testimonial.id}`}>
+        <Link style={{textDecoration:'none'}}to={`projectWindow2/${testimonial.id}`}>
             <div
               key={testimonial.id}
               className="work-card"
               style={{ backgroundColor: 'white'  }}
               // onClick={() => handleProjectClick(testimonial.id)}
             >
-              {/* <div className="cont"> */}
+              <div className="cont">
                 <img src={testimonial.img} />
-                <h3 style={{ color: '#8791B2', fontSize:'18px', marginLeft:'2%'}}>{testimonial.name}</h3>
+                <h3 style={{ color: 'black', fontSize:'18px', marginLeft:'2%'}}>{testimonial.name}</h3>
                 {/* <h3 style={{ color: '#8791B2' }}>{testimonial.designation}</h3> */}
                 {/* <h3 style={{ color: '#8791B2' }}>{testimonial.companyname}</h3> */}
                 {/* <iframe className='contented' title="PDF Document" src = {testimonial.link} alt = "could not" height='100%' width = '100%s'></iframe> */}
-              {/* </div> */}
+              </div>
             </div>
             </Link>
           ))}

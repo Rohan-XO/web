@@ -10,7 +10,7 @@ const home = () => {
   const handleScroll = () => {
     window.scrollTo({
       top: document.body.scrollHeight,
-      behavior: 'smooth', // You can change this to 'auto' for instant scrolling
+      behavior: 'smooth',
     });
   }
   return (
