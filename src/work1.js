@@ -7,10 +7,9 @@ import w3 from './w3.png';
 import work1 from './work1.pdf';
 import work2 from './work2.pdf';
 import work3 from './work3.pdf';
-import projectWindow from './projectWindow';
 // import { BrowserRouter as Router, Route, Switch,useNavigate} from 'react-router-dom';
 // import { Link, Navigate } from 'react-router-dom';
-import { Link, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const workData = [
   {
@@ -34,13 +33,6 @@ const workData = [
 ]
 
 const Work1 = () => {
-  const history = useHistory();
-
-  const handleProjectClick = (id) => {
-    return (
-      <Link to = {`./projectWindow/${id}`}></Link>
-    )
-  };
   return (
     <div>
         <Navbar/>

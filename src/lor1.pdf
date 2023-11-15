@@ -1,15 +1,50 @@
 %PDF-1.3
-%√¢√£√è√ì
-1 0 obj
-<</Pages 2 0 R /Type/Catalog>>
-endobj
-2 0 obj
-<</Count 1/Kids[3 0 R]/Type/Pages>>
-endobj
-3 0 obj
-<</Contents 4 0 R/MediaBox[0.0 0.0 556.0 792.0]/Parent 2 0 R/Resources<</XObject<</Im0 5 0 R>>/Font<</Ft0<</BaseFont/Times-Roman/Encoding/WinAnsiEncoding/Subtype/Type1/Type/Font>>>>>>/Rotate 0/AF[6 0 R]/Type/Page>>
-endobj
-4 0 obj<</Length 20264>>stream
+%‚„œ”
+1 0 obj 
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj 
+2 0 obj 
+<<
+/Kids [3 0 R]
+/Type /Pages
+/Count 1
+>>
+endobj 
+3 0 obj 
+<<
+/Rotate 0
+/Resources 
+<<
+/Font 
+<<
+/Ft0 
+<<
+/Encoding /WinAnsiEncoding
+/Subtype /Type1
+/Type /Font
+/BaseFont /Times-Roman
+>>
+>>
+/XObject 
+<<
+/Im0 4 0 R
+>>
+>>
+/Type /Page
+/Parent 2 0 R
+/Contents 5 0 R
+/MediaBox [0.0 0.0 556.0 792.0]
+/AF [6 0 R]
+>>
+endobj 
+5 0 obj 
+<<
+/Length 20264
+>>
+stream
 q 556.0414 0.0000 0.0000 791.9999 0.0000 0.0000 cm /Im0 Do Q q 0.2565 0.0000 0.0000 0.2565 0.0000 0.0000 cm BT
 3 Tr
 /Ft0 1 Tf
@@ -948,10 +983,20 @@ q 556.0414 0.0000 0.0000 791.9999 0.0000 0.0000 cm /Im0 Do Q q 0.2565 0.0000 0.0
 (in ) Tj
 ET
  Q
-endstream
-endobj
-5 0 obj
-<</BitsPerComponent 8/ColorSpace/DeviceRGB/Filter/DCTDecode/Width 2168/Height 3088/Length 494484/Type/XObject/Subtype/Image>>stream
+endstream 
+endobj 
+4 0 obj 
+<<
+/Subtype /Image
+/Type /XObject
+/Filter /DCTDecode
+/Width 2168
+/Height 3088
+/BitsPerComponent 8
+/Length 494484
+/ColorSpace /DeviceRGB
+>>
+stream
 ˇÿˇ‡ JFIF      ˇ· "Exif  II*                ˇ€ Ñ 		
 
 	++&.%#%.&D5//5DNB>BN_UU_wqwúú—		
@@ -2833,32 +2878,60 @@ hâä*>
 d¶OÑ√^∂ì0ôL¶P@ 
 
 +„Â|P	îœ˝¶S)î¡L…Lî√^%òwˇŸ
-endstream
-endobj
-6 0 obj
-<</AFRelationship/ADBE_Contact_Private/EF<</F 7 0 R>>/F(pageEntities.json)/Type/Filespec/UF(pageEntities.json)>>
-endobj
-7 0 obj
-<</DL 43/Length 43/Params<</ModDate(D:20231010172812+05'30')/Size 43>>/Subtype/application#2Fjson/Type/EmbeddedFile>>stream
+endstream 
+endobj 
+6 0 obj 
+<<
+/AFRelationship /ADBE_Contact_Private
+/Type /Filespec
+/F (pageEntities.json)
+/UF (pageEntities.json)
+/EF 
+<<
+/F 7 0 R
+>>
+>>
+endobj 
+7 0 obj 
+<<
+/Subtype /application#2fjson
+/Type /EmbeddedFile
+/DL 43
+/Length 43
+/Params 
+<<
+/ModDate (D:20231010172812+05'30')
+/Size 43
+>>
+>>
+stream
 { "type": "Document", "isBackSide": false }
-endstream
-endobj
-8 0 obj
-<</Creator (Adobe Scan for Android 23.06.05-regular)/Producer (Adobe Scan for Android 23.06.05-regular)>>
-endobj
-xref
+endstream 
+endobj 
+8 0 obj 
+<<
+/Title (Recommendation-1)
+/Creator (Adobe Scan for Android 23.06.05-regular)
+/Producer (Adobe Scan for Android 23.06.05-regular)
+>>
+endobj xref
 0 9
-0000000001 65535 f
-0000000021 00000 n
-0000000070 00000 n
-0000000124 00000 n
-0000000357 00000 n
-0000020674 00000 n
-0000515321 00000 n
-0000515452 00000 n
-0000515650 00000 n
+0000000000 65535 f 
+0000000015 00000 n 
+0000000066 00000 n 
+0000000125 00000 n 
+0000020712 00000 n 
+0000000392 00000 n 
+0000515371 00000 n 
+0000515515 00000 n 
+0000515726 00000 n 
 trailer
-<</Size 9/Root 1 0 R/Info 8 0 R>>
+
+<<
+/Info 8 0 R
+/Root 1 0 R
+/Size 9
+>>
 startxref
-515773
+515877
 %%EOF

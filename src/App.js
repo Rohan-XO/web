@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './home'
-import { BrowserRouter as Router, Route, Switch,Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import References from './references'
 import About from './About'
 import Footer from './footer'
