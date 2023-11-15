@@ -11,12 +11,12 @@ const Form = () => {
     const [message, setMessage] = useState();
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => emailjs.init("PUBLIC-KEY"), []);
+    useEffect(() => emailjs.init("hdPhXHd29eCsU7dlq"), []);
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        const serviceId = "SERVICE-ID";
-        const templateId = "TEMPLATE-ID";
+        const serviceId = "service_4zi0e2p";
+        const templateId = "template_spkas8f";
 
         try {
             setLoading(true);
