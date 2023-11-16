@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div style={{ backgroundColor: 'white' }}>
       <Navbar />
-      <p className='heading1' style={{ fontFamily:'Open Sans, sans-serif', paddingLeft: '5%', paddingTop: '4.5%', marginBottom: '-3.5%', textAlign: 'left'}}>PROJECTS</p>
+      <p className='heading1' style={{ fontFamily:'Arial, Helvetica, sans-serif', paddingLeft: '5%', paddingTop: '4.5%', marginBottom: '-3.5%', textAlign: 'left'}}>PROJECTS</p>
       <div className='project-container' style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0%' }}>
         <div className='project' style={{ flex: 1, margin: '4%' }}>
           <Link style={{textDecoration:'none'}}to="/work1">
